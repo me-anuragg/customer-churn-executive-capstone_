@@ -1,0 +1,10 @@
+Check,Count,Method,Outcome / action
+Input rows,15,Count of records read from supplied CSV,No change
+Missing cells,0,Count across all columns,No missing values detected
+Duplicate CustomerID values,0,Duplicate IDs after first occurrence,No duplicate IDs detected
+Age outside 0–120,0,Basic plausibility check,No values flagged
+Negative tenure,0,Impossible tenure check,No values flagged
+Negative monthly charges,0,Impossible charge check,No values flagged
+Negative support tickets,0,Impossible ticket-count check,No values flagged
+Extreme values,0,No formal business thresholds supplied; inspect range rather than auto-remove,No rows removed; extremes not defined by source
+Rows removed,0,Preserve all records unless a documented correction is justified,No rows removed

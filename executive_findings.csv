@@ -1,0 +1,6 @@
+Insight,Metric,Interpretation,Caveat
+Overall churn,7/15 (46.7%),7 churned of 15 sample customers,Very small synthetic sample; not a population estimate
+Contract type,Month-to-Month: 100% churn,All month-to-month customers churned in sample,Small segment; association not causation
+Subscription type,Basic: 71.4% churn,Basic customers show the highest plan-level churn in this sample,Plan and contract type may overlap
+Support tickets,4.29 average for churned vs 1.00 for retained,Churned customers had more support tickets on average,"Small n; tickets may be a symptom, not cause"
+Payment method,Debit Card: 100%; UPI: 75%,Potential operational segment to investigate,Likely confounding with contract/plan; do not target solely on payment method
